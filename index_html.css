@@ -1,0 +1,88 @@
+/* todos os arquivos CSS do index.html em um unico arquivo */
+
+/* cor de fundo principal da index.html */
+body {
+  background-color: rgb(255, 187, 0);
+}
+
+
+/* cardapio 1 */
+table,
+    th,
+    td {
+      border: 1px solid rgb(0, 0, 0);
+    }
+
+
+    /* cardapio 2 */
+table,
+    th,
+    td {
+      border: 1px solid #fffffffa;
+    }
+
+
+    /* cardapio 3 */
+table,
+th,
+td {
+  border: 3px solid rgb(255, 255, 255);
+}
+
+
+/* redes sociais */
+.nav {
+  background-color: rgb(255, 255, 255);
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* curiosidades */
+.city {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(240, 124, 0);
+  margin: 50px;
+  padding: 10px;
+}
+
+/* formulario */
+input[type=text],
+  select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 50%;
+    background-color: rgb(255, 187, 0);
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #ffffff;
+  }
+
+  div {
+    border-radius: 5px;
+    background-color: rgb(255, 187, 0);
+    padding: 20px;
+  }

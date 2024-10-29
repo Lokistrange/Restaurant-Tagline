@@ -1,0 +1,14 @@
+/* CURIOSIDADES.HTML */
+/* cor de fundo do curiosidades.html */
+body {
+    background-color: rgb(255, 187, 0);
+}
+
+/* borda e fundo */
+.city {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(240, 124, 0);
+    margin: 50px;
+    padding: 10px;
+  }
