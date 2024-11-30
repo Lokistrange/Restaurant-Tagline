@@ -3,22 +3,50 @@
 
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-widht, initial-scale=1.0">
-    <style>
-        body {
-            background-color: rgb(255, 187, 0);
-        }
-    
-    body {
-        font-family: fantasy;
-    }
-    </style>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <meta charset="UTF-8">
     <title>Criando formulario</title>
     <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/128/272/272609.png">
 
     <h1 style="text-align: center;">Formulario do Restaurant Tagline</h1>
+
+    <style>
+        body {font-family: fantasy;}
+        * {box-sizing: border-box;}
+        
+        body {
+            background-color: orange;
+        }
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #000000;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: orange;
+            color: white;
+            padding: 14PX 20PX;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    
+        input[type=submit]:hover {
+            background-color: green;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: aliceblue;
+            padding: 20px;
+        }
+    </style>
 
     <form>
         <p style="background-color: rgb(0, 0, 0);">Compreendendo formulario</p>
@@ -32,9 +60,11 @@
         <br>
         <label for="CPF">Digite seu CPF: </label>
         <input type="number" id="Digite seu CPF" name="Digite seu CPF" value="">
+        <br><br>
         <br>
         <label for="RG">Digite seu RG: </label>
         <input type="number" id="Digite seu RG" name="Digite seu RG" value="">
+        <br><br>
         <br>
         País: <select id="País" name="País">
             <option value="Argentina">Argentina</option>
@@ -67,12 +97,9 @@
 
         <h3><label for="Outro">Qual foi o seu prato favorito?</label></h3>
         R: <input type="text" id="text" name="fav_language" value="">
-    <br>
+        <br>
         <input type="submit" value="enviar formulario">
-   </form>
+    </form>
 </head>
-</html>
 
-<a href="restaurante1.html">
-    <p style="text-align: center;">Voltar ao site principal</p>
-</a>
+</html>
