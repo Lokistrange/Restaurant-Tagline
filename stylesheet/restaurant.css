@@ -1,0 +1,148 @@
+/* todos os arquivos CSS do index.html em um unico arquivo */
+
+/* cor de fundo principal da index.html */
+body {
+  background-color: rgb(255, 187, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 70%;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  margin: 30px;
+  padding: 15px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.restaurant_tagline,
+.virada_paulista,
+.strogonoff,
+.feijoada {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
+/* menu */
+    /* cardapios*/
+table,
+th,
+td {
+  border: 3px solid rgb(255, 255, 255);
+  width: 70%;
+}
+
+.left {
+  font-size: 18px;
+}
+
+/* redes sociais */
+
+.restaurant_item-lista {
+  font-weight: 500;
+  margin: 0.625em 0;
+  order: 1;
+  margin: 0;
+  font-size: 18px;
+}
+
+/* curiosidades */
+.city {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(240, 124, 0);
+  margin: 25px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* formulario */
+input[type=text],
+input[type=tel],
+input[type=email],
+select {
+  width: 60%;
+  padding: 10px 4px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 15px;
+}
+
+input[type=submit] {
+  width: 60%;
+  background-color: rgb(255, 187, 0);
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 0px 0;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #fff8f8;
+}
+
+div {
+  border-radius: 5px;
+  background-color: rgb(240, 173, 2);
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 90%;
+  }
+
+  .left {
+    text-align: left;
+    padding: 10px;
+  }
+
+  th {
+    text-align: left;
+    padding: 10px; 
+  }
+
+  .city {
+    width: 90%;
+    margin: 5px auto;
+  }
+
+  .esquerda {
+    text-align: left;
+    padding: 0 0 0 25px;
+  }
+
+  input[type=text],
+  input[type=tel],
+  input[type=email],
+  select {
+    width: 90%;
+  }
+
+  input[type=submit] {
+    width: 90%;
+  }
+}

@@ -1,0 +1,81 @@
+/* TODOS OS ARQUIVOS CSS DO RESTAURANT1.HTML EM UM ÚNICO ARQUIVO */
+
+ /* Cor de fundo principal */
+ body {
+    background-color: rgb(254, 255, 249);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.cabeçalho_item-menu {
+    display: inline-block;
+}
+
+    /* Um quadrado */
+    * {
+    box-sizing: border-box;
+    }
+
+    /* Estilize o cabeçalho */
+    header {
+        background-color: rgb(255, 187, 0);
+        padding: 15px;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(76, 46, 3)
+    }
+
+    /* Cria duas colunas/caixas que flutuam uma ao lado da outra */
+    nav {
+        float: left;
+        width: 30%;
+        height: 300px;
+        /* Apenas uma demonstração, deve ser removido */
+        background: rgb(254, 255, 249);
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Estilize a lista dentro do menu */
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    article {
+        float: right;
+        padding: auto;
+        width: 70%;
+        background-color: rgb(255, 187, 0);
+        height: 350px;
+        text-align: left;
+        padding-left: 10px;
+        font-size: 20px;
+        /* Apenas uma demonstração, deve ser removido */
+    }
+
+    /* floats após as colunas */
+
+    section::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Estilize o rodapé */
+    footer {
+        background-color: #000000;
+        padding: 1px;
+        text-align: center;
+        color: rgb(254, 255, 249);
+    }
+
+    /* Layout responsivo - faz com que as duas colunas/caixas sejam empilhadas uma em cima da outra em vez de uma ao lado da outra, em telas pequenas */
+    @media (max-width: 600px) {
+
+        nav,
+        article {
+            width: 100%;
+            height: auto;
+        }
+    }
