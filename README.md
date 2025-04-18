@@ -1,1 +1,1 @@
-# Restaurant Tagline 
+## <p text align="center">Restaurant Tagline</p>
